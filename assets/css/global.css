@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg-color-dark: #111111;
+  --bg-color-dark-second: #151515;
+  --color-light-purple: #986DFF;
+  --color-slate-gray: #888E98;
+  --color-royal-purple: #6534ed;
+  --color-white: #fff;
+  --border-gray: rgba(40, 40, 40, 0.8);
+
+  /* BORDAS PROJETOS */
+  --border-moderate-blue: #536FED;
+  --border-mint-green: #4dff7a;
+  --border-vivid-azure: #00A3FF;
+  --border-deep-red: #E51D37;
+
+  /* BOX SHADOW IMAGEM */
+  --Soft-purple-glow-with-black-shadow: 0 0 30px 10px rgba(144, 96, 255, 0.5),
+    0 0 20px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.custom-bg {
+  background-color: var(--bg-color-dark);
+}
+
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-light-purple);
+  border-radius: 6px;
+}
