@@ -444,8 +444,19 @@
   }
 }
 
-.purple-border:hover {
-  border: 1px solid var(--color-light-purple);
+.bright-royal-purple {
+  border: 1px solid var(--border-royal-purple);
+
+  & .project-link {
+    color: var(--border-royal-purple);
+  }
+}
+.bright-dark-yellow {
+  border: 1px solid var(--border-dark-yellow);
+
+  & .project-link {
+    color: var(--border-dark-yellow);
+  }
 }
 
 .project-link::after {

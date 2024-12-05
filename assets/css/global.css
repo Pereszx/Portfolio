@@ -29,6 +29,8 @@ html{
   --border-mint-green: #4dff7a;
   --border-vivid-azure: #00A3FF;
   --border-deep-red: #E51D37;
+  --border-dark-yellow: #b8860b;
+  --border-royal-purple: #6534ed;
 
   /* BOX SHADOW IMAGEM */
   --Soft-purple-glow-with-black-shadow: 0 0 30px 10px rgba(144, 96, 255, 0.5),
