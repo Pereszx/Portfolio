@@ -30,7 +30,9 @@ html{
   --border-vivid-azure: #00A3FF;
   --border-deep-red: #E51D37;
   --border-dark-yellow: #b8860b;
+  --border-magenta: #FF08FF;
   --border-royal-purple: #6534ed;
+  --border-gray: rgba(40, 40, 40, 0.8);
 
   /* BOX SHADOW IMAGEM */
   --Soft-purple-glow-with-black-shadow: 0 0 30px 10px rgba(144, 96, 255, 0.5),
